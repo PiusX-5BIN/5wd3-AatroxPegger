@@ -177,21 +177,21 @@ De website bestaat uit minstens 3 delen:
  - [ ] De **theorie** werd volledig ingevuld
  - [ ] Je hebt een **werkende URL** voor jouw website op Smartschool geplaatst
  - [ ] Je hebt een **markdown** bestand voor ELKE pagina waarin de inhoud reeds werd verzameld
- - [ ] **Blog**:
-   - [ ] Eén overzichtspagina (mag op je startpagina zijn)
-   - [ ] Minstens 2 blogposts
-   - [ ] Elke blogpost krijgt een eigen pagina
- - [ ] **Projecten**:
-   - [ ] Eén overzichtspagina (mag op je startpagina zijn)
-   - [ ] Eén onderdeel voor elk informatica-project:
+ - [x] **Blog**:
+   - [x] Eén overzichtspagina (mag op je startpagina zijn)
+   - [x] Minstens 2 blogposts
+   - [x] Elke blogpost krijgt een eigen pagina
+ - [x] **Projecten**:
+   - [x] Eén overzichtspagina (mag op je startpagina zijn)
+   - [x] Eén onderdeel voor elk informatica-project:
      - Digital comicbook
      - Javascript game
      - Superhero website
-   - [ ] Elk project krijgt een eigen pagina
- - [ ] **About**:
-   - [ ] Eén pagina waarin je vertelt over jezelf (mag op je startpagina zijn)
- - [ ] Géén **plagiaat**!
- - [ ] CSS-code werd opgedeeld volgens de **CUBE methode**
+   - [x] Elk project krijgt een eigen pagina
+ - [x] **About**:
+   - [x] Eén pagina waarin je vertelt over jezelf (mag op je startpagina zijn)
+ - [x] Géén **plagiaat**!
+ - [x] CSS-code werd opgedeeld volgens de **CUBE methode**
 
 ## 🏆 Evaluatie
 

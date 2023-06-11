@@ -1,0 +1,176 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p {
+    font-size: larger;
+}
+
+header {
+    padding: 300px 0;
+    color: white;
+}
+
+#navigatiebalk {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: crimson;
+    position: relative;
+    font-style: italic;
+    word-spacing: 3em;
+    line-height: 3em;
+
+}
+
+#navigatiebalk a {
+    font-size: x-large;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: whitesmoke;
+    display: block;
+    border: 20em;
+    padding: 0.25em;
+}
+
+#HeaderHome {
+    background-image: url(Fotos/Home\ foto\ 1.png);
+    background-size: contain;
+}
+
+.NavigatieHome {
+    font-size: xx-large;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: whitesmoke;
+    display: block;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+#HomeNavJSgame {
+    background-image: url(Fotos/JSgame\ foto\ 1.png);
+
+}
+
+#HomeNavJSCB {
+    background-image: url(Fotos/JScomicbook\ foto\ 11.png);
+}
+
+#HomeNavSHW {
+    background-image: url(Fotos/Superherowebsite\ foto\ 10.jpg);
+}
+
+#HomeNavBlog1 {
+    background-image: url(Fotos/GameDevelopment\ foto\ 1.png);
+}
+
+#HomeNavBlog2 {
+    background-image: url(Fotos/Programming\ foto\ 1.png);
+}
+
+#HeaderSHW {
+    background-image: url(Fotos/Superherowebsite\ foto\ 10.jpg);
+}
+
+.SHwebsitefoto {
+    width: 100%;
+}
+
+#HeaderJSCB {
+    background-image: url(Fotos/JScomicbook\ foto\ 11.png);
+}
+
+.Comicbookpage {
+    width: 50%;
+}
+
+.ComicBookfoto {
+    width: 100%;
+}
+
+#HeaderJSgame {
+    background-image: url("Fotos/JSgame\ foto\ 1.png");
+}
+
+.JSgamefotos {
+    width: 100%;
+}
+
+#HeaderBlog1 {
+    background-image: url(Fotos/GameDevelopment\ foto\ 1.png);
+    background-size: 100%;
+
+}
+
+#HeaderBlog2 {
+    background-image: url(Fotos/Programming\ foto\ 1.png);
+    background-size: 100%;
+}
+
+.Mediafotos {
+    width: 50px;
+    height: 50px;
+}
+
+@media screen and (min-width: 462px){
+
+    .JSgamefotos{
+        width: 50%;
+    }
+
+    .ComicBookfoto{
+        width: 50%;
+    }
+
+    .SHwebsitefoto{
+        width: 75%;
+    }
+
+}
+
+@media screen and (min-width: 770px) {
+
+    #navigatiebalk a{
+        display: inline;
+    }
+
+    #HeaderHome {
+        background-size: auto;
+    }
+
+    .NavigatieHome {
+        display: grid;
+        background-size: 800px;
+    }
+
+    .JSgamefotos{
+        width: 500px;
+    }
+
+    #HeaderJSCB{
+        background-size: cover;
+    }
+
+    .Comicbookpage{
+        width: 300px;
+    }
+
+    .ComicBookfoto{
+        width: 400px;
+    }
+
+    #HeaderSHW{
+        background-size: cover;
+    }
+
+    .SHwebsitefoto{
+        width: 600px;
+    }
+
+}

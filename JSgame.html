@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="CSS docs/Composition.css">
+    <link rel="stylesheet" href="CSS docs/Utitlities.css">
+    <link rel="stylesheet" href="CSS docs/Blocks.css">
+    <link rel="stylesheet" href="CSS docs/Exceptions.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScriptGame</title>
+</head>
+
+<body>
+
+    <header id="HeaderJSgame">
+        <h1>Javascript Game</h1>
+    </header>
+
+    <nav id="navigatiebalk">
+        <a href="Startpagina.html">Home</a>
+        <a href="JScomicbook.html">JavaScriptComicbook</a>
+        <a href="Superherowebsite.html">Superherowebsite</a>
+        <a href="Blog1.html">GameDevelopment</a>
+        <a href="Blog2.html">Programming</a>
+    </nav>
+
+    <p>
+        Hey, welkom bij mijn Javascript Game pagina. Hier ga ik meer uitleg geven over mijn Javascript game. Het spel
+        dat ik had gemaakt in Javascript taal is Spaceinvader. Ik had dit spel gekozen omdat het vrij simplistisch is om
+        te maken. Je bent de blauwe vliegtuig en u moet de rode, groene, en gele vliegtuigen neerschieten. De
+        hoeveelheid punten die u krijgt hangt af van welk gekleurde vliegtuig. De Rode vliegtuigen geven 1 punt, De
+        groene 2 punten en de gele 5 punten. Het doel van het spel is het kapotschieten van andere vliegtuigen en zo
+        veel mogelijke punten te halen. Games maken in het algemeen is wel moeilijk, want je gaat veel errors krijgen
+        omdat je ook een game voor de eerste keer niet correct gaat schrijven. Bij dit project had ik spijtig genoeg het
+        punten systeem niet erop kunnen zetten vanwege de tijdberperking dat we hadden en ook niet wist hoe je het moest
+        doen. Ik had ook geen <em>respawn</em> methode en een <em>Game Over</em> scherm in mijn game geschrijven ook
+        omwille van de dezelde redenen. Bij elk object staat er een groene tekst helemaal boven. Dat legt uit wat het
+        object eigenlijk doet.
+    </p>
+
+    <p>Bij het maken van deze game ben ik eerst begonnen met een schets te maken in Google drawings.</p>
+
+    <img class="JSgamefotos" src="Fotos/JSgame foto 2.png">
+
+    <p>Daaarna ben ik begonnen met het maken van 'Gameobjects'. Dat zijn de objecten van u game die met andere objecten
+        kunnen botsen. was ik begonnen met het maken van de speler, de blauwe vliegtuig. Je kan zien dat ik de functies
+        die ik had aangemaakt in de functie <em>update</em>. De <em>update</em> functie zet de functies die ik had
+        aangemaakt in een herhaling waardoor ze elke keer hetzelfde gaat doen zoals je kan zien bij <em>MovePlayer</em>
+        en <em>Shoot</em>. Elke keer gaat mijn laser en mijn blauwe vliegtuig frames opschuiven. Deze toepassing is
+        overal zo. Je kan ook zien dat ik een <em>consttructor</em> en een <em>super</em> had staan. De
+        <em>constructor</em> geeft aan welke parameters moeten ingevuld worden om de blauwe vliegtuig te maken.
+    </p>
+
+    <img class="JSgamefotos" src="Fotos/JSgame foto 3.png">
+
+    <p>Dit is hoe ik de vijanden had gemaakt. Ik had 3 verschillende vijanden en deze 'Enemy' gameobject is de basis
+        voor alle vijanden. helemaal van onder kan je zien hoe ik de automatisering van het schieten van lasers.
+    </p>
+
+    <img class="JSgamefotos" src="Fotos/JSgame foto 4.png">
+
+    <p>Om vijanden neer te knallen moet je ook wel lasers. De vijanden zelf hebben ook nodig. Onderaan zie je een
+        <em>OnOverlap</em>. Dit legt uit wat er gebeurt zou uw of de laser een ander object raken.
+    </p>
+
+    <img class="JSgamefotos" src="Fotos/JSgame foto 5.png"> <img class="JSgamefotos" src="Fotos/JSgame foto 6.png">
+
+    <p>In mijn gameclass 'SpaceInvader' zullen dan de nodige object staan. De object die je in de gameclass zet zijn de
+        objecten die je als eerste zult zien. De nodige parameters worden pas ingevuld in de game class. De
+        parameters, waardes die aan functies worden meegegeven, moeten in de gameobjects nooit een specifieke waarde
+        hebben. Als je dat zou doen dan gaat de game eerst de parameters van de gameclass pakken(want dat is waar de
+        hitbox zalstaan) en dan optellen met elke specifieke parameters dat in de gameobject staat. Bijvoorbeeld, uw
+        hitbox staat in het midden van uw scherm maar uw vliegtuig staat helemaal rchts van het scherm wat niet klopt.
+        Daarom dat ik bijna bij elke ingegeven parameter in de gameobjects naar de juiste parameter van zijn constructor
+        verwijst(bv.: x,y,this.width, this.height of 0 kan ook maar kan voor problemen zorgen) om ze te centraliseren.
+        'Laser' en 'EnemyLaser' zijn uitzonderingen omdat ze niet in de gameclass worden vermeld en ze een deel uitmaken
+        van een ander object.
+    </p>
+
+    <img class="JSgamefotos" src="Fotos/JSgame foto 7.png">
+
+    <p>Om de game nog te spelen moet je het nog verwijzen in html. Dit document was al opvoorhand gemaakt door de
+        leerkracht want op dat moment kon ik nog geen html. De groene tekstjes vertellen wat er gedaan moest worden en
+        niet.
+    </p>
+
+    <img class="JSgamefotos" src="Fotos/JSgame foto 8.png">
+
+    <a href="5sd-proj-4-game-AatroxPegger/EXAMENOPDRACHT/index.html">
+        <p>Je kan op deze link drukken om het eens uit te proberen(LET OP: Dit gaat niet werken voor apparaten zonder
+            toetsenbord).
+        </p>
+    </a>
+
+    <footer id="Footertext">
+        Robert Van der herten
+        <br>
+        robert.vanderherten@leerling.piutien.net
+        <br>
+        <p>Je kan me op deze websites volgen.</p>
+    <a href="https://www.instagram.com/brobie_vdh/"><img class="Mediafotos" src="Fotos/Instagram_logo_2016.svg.jpg"></a>
+    <a href="https://www.facebook.com/Proteinshake365"><img class="Mediafotos" src="Fotos/Facebook_f_logo_(2021).svg.jpg"></a>
+    <a href="https://www.reddit.com/user/TheFlyingFeeder"><img class="Mediafotos" src="Fotos/reddit-logo.jpg"></a>
+    <br>
+    bronnen:
+    <br>
+    https://www.redditinc.com/brand
+    <br>
+    https://en.wikipedia.org/wiki/File:Facebook_f_logo_%282021%29.svg
+    <br>
+    https://commons.wikimedia.org/wiki/File:Instagram_logo_2016.svg
+</footer>
+
+</body>
+
+</html>

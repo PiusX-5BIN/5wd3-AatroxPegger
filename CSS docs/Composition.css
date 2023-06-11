@@ -1,0 +1,28 @@
+body{
+    text-align: center;
+}
+
+#navigatiebalk{
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+
+p{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 11%;
+    padding-right: 11%;
+}
+
+@media screen and (min-width: 770px) {
+
+    ul{
+        padding-left: 500px;
+        padding-right: 500px;
+    }
+
+    ol{
+        padding-left: 500px;
+        padding-right: 500px;
+    }
+}

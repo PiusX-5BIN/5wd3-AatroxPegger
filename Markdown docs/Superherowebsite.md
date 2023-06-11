@@ -1,0 +1,45 @@
+![Foto10](../CSS%20docs/Fotos/Superherowebsite%20foto%2010.jpg)
+
+# Superhero Website
+
+### Home
+### JavaScriptGame
+### JavaScriptComicbook
+### Superherowebsite
+### GameDevelopment
+
+Hey, welkom bij mijn Superhero website. Hier ga ik meer uitleg geven over mijn website.
+
+De Superhero die ik had gekozen is Black Adam. De reden waarom dat ik Black Adam had gekozen is omdat ik en mijn familie de recentste film van hem hadden gezien genaamd <em>Black Adam</em>Het maken van deze website was niet zo moeilijk. Eerst moesten we een <em>header</em> maken voor de introductie (<em>Superhero Banner</em>). Vervolgens had ik een korte overzicht geschreven over de superhero met een foto boven de tekst.
+
+![Foto1](../Fotos/Superherowebsite%20foto%201.png)
+
+Dan had ik de krachten geschreven van de superhero. De krachten had geschreven in een lijst. Omdat mijn lijst niet kwantitatief is had ik met de code <em>ul</em> gewerkt om dan met <em>li</em> een rij te maken. Elke kracht heeft zijn eigen <em>li</em> met een korte beschrijving van waar de alfabetische gerangschikte letter van Black Adam zijn kracht komt.
+
+![Foto2](../Fotos/Superherowebsite%20foto%202.png)
+
+Daarna had moest ik 4 getuigen kiezen en hoe zij de superhero zien in hun visie en wat ze met hebben meegemaakt. De getuigen die ik had gekozen waren de 4 protagonisten van de film <em>Black Adam</em>(Doctor Fate/Kent Nelson Carter Hall/Hawkman, Adrianna Tomaz, Amon). Na de getuigen moest ik 3 comicbooks kiezen van de superhero.
+
+![Foto3](../Fotos/Superherowebsite%20foto%203.png)
+
+Na de getuigen moest ik 3 comicbooks kiezen van de superhero. Omdat ik een aantal had bij getuigen en comicbooks had ik ze in een table formaat geschreven. Eerst had ik een foto van de getuige om daarna <em>th</em> met de naam erin en eronder een <em>td</em> met zijn/haar ervaring met Black Adam. Net hetzelfde bij de comicbooks. Eerst een Foto met <em>th</em> en dan de titel ervan met de publicatie datum erbij in <em>td</em>
+
+![Foto4](../Fotos/Superherowebsite%20foto%204.png)
+
+Het laatste dat er moest gebeuren was een <em>Footer</em> schrijven. In de <em>Footer</em> zitten alle bronnen van foto's die ik had gebruikt bij deze website. Geen bronvermelding is plagiaat en absoluut niet toegestaan.
+
+![Foto5](../Fotos/Superherowebsite%20foto%205.png)
+
+Een deftige website is geen website zonder opmaak en daar komt CSS(Cascading Style Sheets) van toepassing. Bij CSS moet je rekening houden met de 'Composition, Utilities, Blocks & Exceptions' of de 'CUBE' regel. De macro elementen waren niet zo moeilijk hier om op te maken maar het waren vooral de micro-elementen omdat ze meestal in Composition en ook Utilities staan. Je kan zien aan mijn website dat ik alles centraal staat omdat ik bij mijn <em>body</em> de <em>center</em> waarde had gebruikt. De opmaak van mijn site had ik aangepast aan de kleuren van mijn superhero(zwart, goud en grijs). Mijn <em>table</em> elementen had ik op 100% width gezet zodat ik horizontale verlenging kon vermijden.
+
+![Foto6](../Fotos/Superherowebsite%20foto%206.png)
+
+De micro-elementen waren moeilijker omdat het specifieke aanpassing zijn die je aan 1 code toevoegt. Dit valt onder 'Blocks'. Je kan dat bij verschillende elementen de text-breedte(font-size), text-stijl(font-family) en textkleur anders zijn. Ook bijna elke foto heeft zijn eigen width.Exceptions bij mij staat leeg omdat Exceptions regel iets is dat je zo weinig gaat gebruiken en zelfs kan vermijden te gebruiken.
+
+![Foto7](../Fotos/Superherowebsite%20foto%207.png)
+
+De navigatie balk en de 'return' knop rechtsonder waren wel makkelijk te schrijven. Om zo'n elementen te maken moet je verwijzing maken. Dat doe je met <em>a</em> en dan een referentie met <em>href</em> direct erachter te schrijven. Let op: verwijzingen werken alleen met id's en niet met classes!!! Het verschil tussen die 2 is dat een <em>id</em> een specifieke verwijzing is en een <em>class</em> een groep is van elementen(bv: id="appel3" class='appels') Om naar een titel te verwijzen moet je binnen de <em>nav</em> element de <em>a href</em> met daarin de <em>id</em> van de titel. Dit is hoe bijna alle navigatie balken werken. Bij de return knop moest ik geen <em>nav</em> element gebruiken want dat is niet nodig. Alleen een <em>a href</em> met de <em>id</em> van de navigatie balk of een ander <em>id</em> dat jouw naar de top van de pagina brengt. Niet vergeten om in CSS de <em>position</em> van de return knop op <em>fixed</em> zodat het op je scherm blijft ongeacht als je scrollt zoals ik had gedaan(het moet niet maar het kan handig zijn).
+
+![Foto8](../Fotos/Superherowebsite%20foto%208.png)
+
+Bij het maken van een website moet je altijd rekening houden met 'responsive design'. Responsive design is eigenlijk uw website opmaken zodat het even goed werkt op verschillende mediatypes (gsm, computer, tablets, ...). Om dit toe te passen moet je in CSS 'mediaqueries' gebruiken. Een mediaquery is een specifieke conditie dat een website moet aan voldoen om dat stukje opmaak toe te passen. Het is altijd best dat je mediaqueries helemaal beneden schrijft want CSS leest elementen van boven naar beneden. Hier onder vindt je een voorbeeld van een mediaquery. (Voorbeeld foto van mediaquery toevoegen) Bij mijn website moest ik geen mediaquery schrijven omdat mijn website even goed werkt op gsm en computer sinds dat alleen die 2 mediatypes gevraagd werden.
